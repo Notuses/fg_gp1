@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4975735901472165707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5395834145833507873}
+  - component: {fileID: 1593536110344550265}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5395834145833507873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975735901472165707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.105182, y: -0.8679876, z: 3.2519739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1593536110344550265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975735901472165707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec7f933b5b25d648a257bbce054a68f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMusic:
+  - {fileID: 8300000, guid: 758c894a9db3f904f930b55a729d36c6, type: 3}
+  - {fileID: 8300000, guid: 3d7a227ee3e77534b96c0c8e30cd6999, type: 3}
+  mainMusicSource: {fileID: 0}
+  mainMusicVolume: 1
+  playerDeathSound: {fileID: 0}
+  playerDamageTaken: {fileID: 8300000, guid: ba6659190e426d349b585a512a0a2c1f, type: 3}
+  playerDashSound: {fileID: 8300000, guid: 27db1fbbca18cbe479c65cb4369369eb, type: 3}
+  playerJumpSound: {fileID: 8300000, guid: d8b5cedfce555844abb91ff3e8b1d384, type: 3}
+  playerDoubleJumpSound: {fileID: 8300000, guid: 78cd8e68470f9cf4c8471ed80b5519e6, type: 3}
+  playerWalkingSounds:
+  - {fileID: 8300000, guid: af984a7cdf1914f4ba42f0ef5cb3a28a, type: 3}
+  - {fileID: 8300000, guid: 24b2573dc9a974d4f966f541c5e8770a, type: 3}
+  playerAttackStart:
+  - {fileID: 8300000, guid: 0d9cd298fdcda2147bad2ec916ca9849, type: 3}
+  - {fileID: 8300000, guid: 3dd5f5e10f1ca394c8c72e0e8c093362, type: 3}
+  playerAttackImpact:
+  - {fileID: 8300000, guid: 215af7d02898dd346b33b5c38629cabd, type: 3}
+  - {fileID: 8300000, guid: 71dcc758c83c1544a90a82ebb3a7362f, type: 3}
+  timeBetweenFootsteps: 0.5
+  footstepsVolume: 0.5
+  pickupSound: {fileID: 8300000, guid: 240748f2016624b46bcc8204be4861fb, type: 3}
+  zombieSounds:
+  - {fileID: 8300000, guid: d74b3cfc3dd0b5641aec326959a5160e, type: 3}
+  - {fileID: 8300000, guid: 24733888970cf3f4480b8f2ec04255e6, type: 3}
+  - {fileID: 8300000, guid: 9ba166877c7a1a54fbc2826d054b7f5a, type: 3}
+  ghostSounds:
+  - {fileID: 8300000, guid: dadba0e43fd12dd4ca9017ba38d4a7a9, type: 3}
+  batSounds:
+  - {fileID: 8300000, guid: 951fc06417c6b3e4e8fc644f0c72ba41, type: 3}
+  - {fileID: 8300000, guid: 951fc06417c6b3e4e8fc644f0c72ba41, type: 3}
+  - {fileID: 8300000, guid: 33bdc8674240d5a43844ec19cffecab6, type: 3}
+  archerSounds:
+  - {fileID: 8300000, guid: 09a5a53007ceb224ab2991b0bf54be63, type: 3}
+  - {fileID: 8300000, guid: 24733888970cf3f4480b8f2ec04255e6, type: 3}
+  - {fileID: 8300000, guid: 9ba166877c7a1a54fbc2826d054b7f5a, type: 3}
+  - {fileID: 8300000, guid: f5e0144a9dac28c4c9785f2c91d084a6, type: 3}
+  sawbladeSounds:
+  - {fileID: 8300000, guid: 207d42c345ede9242a49edba1a8ed29a, type: 3}
